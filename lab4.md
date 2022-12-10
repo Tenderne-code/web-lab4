@@ -102,7 +102,9 @@ Controller 用于通知交换机进行老化，它通过发送控制帧来实现
 
 为了区分来自于主机的帧与来自于controller的帧，我们将从主机发出的帧称为**数据帧**，将从controller发出的带有控制命令的帧叫做**控制帧**。**请注意：控制帧与数据帧在格式上均遵循本节中的帧格式**。
 
-<img src="ethernet_frame.png" alt="ethernet_frame" style="zoom:50%;" />
+![ethernet_frame](ethernet_frame.png)
+
+
 
 我们用6字节的uint8_t数组来表示MAC地址，为了使得MAC地址的声明更加具有可读性, 我们使用typedef来给MAC地址定义了别名	`mac_addr_t`，你可以在`types.h`中找到对应的代码片段。
 
@@ -375,7 +377,7 @@ hostsend de:ad:be:ef:00:01 de:ad:be:ef:00:02 HelloFromHost1ToHost2
 
 第1-4行实际上建立起了如下的物理链路
 
-<img src="topo1.png" alt="Topology1" style="zoom:50%;" />
+![topology1](topo1.png)
 
 
 
