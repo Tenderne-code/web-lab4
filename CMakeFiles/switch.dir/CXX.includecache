@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/m/web-labs/lab4-switch-Tenderne-code/switch.cc
+switch.h
+/home/m/web-labs/lab4-switch-Tenderne-code/switch.h
+map
+-
+stdio.h
+-
+arpa/inet.h
+-
+math.h
+-
+
+/home/m/web-labs/lab4-switch-Tenderne-code/switch.h
+types.h
+/home/m/web-labs/lab4-switch-Tenderne-code/types.h
+
+/home/m/web-labs/lab4-switch-Tenderne-code/types.h
+stdint.h
+-
+stdlib.h
+-
+string.h
+-
+chrono
+-
+
